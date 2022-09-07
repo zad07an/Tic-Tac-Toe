@@ -1,0 +1,222 @@
+.container-normal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/src/assets/home2.jpg');
+  background-size: cover;
+}
+
+.home-button-normal {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: #e29e00;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.board-normal {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  place-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.square-normal {
+  width: 150px;
+  height: 150px;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-family: 'Fredoka One', sans-serif;
+  border: 1px solid #fafafa7d;
+  border-radius: 10%;
+  border: 1px solid #2195f351;
+  background: #2195f351;
+  box-shadow: 0 0 8px #2195f39f;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.266);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.square:active {
+  background: #ebebeb99;
+}
+
+.x {
+  color: orangered;
+}
+
+.o {
+  color: #2196f3;
+}
+
+.status-box {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.score-board-container {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #fafafa;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.score-board-title-box {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb;
+}
+
+.score-board-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(86, 86, 86);
+}
+
+.score-board {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: #fafafa;
+}
+
+.scores {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.score-x {
+  width: 120px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Fredoka One', sans-serif;
+  border-bottom: 5px solid orangered;
+  color: orangered;
+  padding-bottom: 10px;
+  transition: border 0.1s ease-in-out;
+}
+
+.score-o {
+  width: 120px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Fredoka One', sans-serif;
+  border-bottom: 5px solid #2196f3;
+  color: #2196f3;
+  padding-bottom: 10px;
+  transition: border 0.1s ease-in-out;
+}
+
+.inactive {
+  border-bottom: 5px solid transparent;
+}
+
+.buttons-box-normal {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.play-again {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #007ce2;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.play-again:active {
+  background: #2196f3;
+}
+
+.reset {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background: orangered;
+  color: #fafafa;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.reset:active {
+  background: rgb(255, 107, 53);
+}
+
+
+.winner {
+  background: rgb(0, 190, 0);
+}
+
+
+.footer-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.4);
+  border-top: 2px solid rgba(128, 128, 128, 0.329);
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fafafa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
