@@ -1,5 +1,6 @@
 import React from 'react'
 import './TicTacToeNormal.css'
+import './NormalResponsive.css'
 
 export default function ScoreBoardNormal({scores, playerX}) {
   const {xScore, oScore} = scores;

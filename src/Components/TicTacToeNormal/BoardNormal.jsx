@@ -1,6 +1,7 @@
 import React from 'react'
 import SquareNormal from './SquareNormal'
 import './TicTacToeNormal.css'
+import './NormalResponsive.css'
 
 export default function BoardNormal({board, onClick, disabled, winnerLine}) {
 

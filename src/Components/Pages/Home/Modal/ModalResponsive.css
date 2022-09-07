@@ -1,0 +1,100 @@
+@media screen and (max-width: 1024px) {
+  .modal-box {
+    width: 700px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .modal-box {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-box {
+    width: 550px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modal-box {
+    width: 500px;
+    height: 300px;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+
+  .mega-button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .normal-button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .modal-box {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal-box {
+    width: 400px;
+    height: 250px;
+  }
+
+  .text {
+    font-size: 35px;
+  }
+
+  .buttons-box-modal {
+    height: 60px;
+  }
+
+  .mega-button {
+    width: 140px;
+    height: 40px;
+  }
+
+  .normal-button {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .modal-box {
+    width: 350px;
+    height: 220px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  .buttons-box-modal {
+    height: 60px;
+  }
+
+  .mega-button {
+    width: 140px;
+    height: 40px;
+  }
+
+  .normal-button {
+    width: 140px;
+    height: 40px;
+  }
+}

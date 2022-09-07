@@ -1,6 +1,7 @@
 import React from 'react'
 import SquareMega from './SquareMega'
 import './TicTacToeMega.css'
+import './MegaResponsive.css'
 
 export default function BoardMega({board, onClick, disabled, winnerLine}) {
 

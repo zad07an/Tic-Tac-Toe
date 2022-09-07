@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+  .general-title-box {
+    width: 600px;
+  }
+
+  .buttons-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .general-title-box {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .general-title-box {
+    width: 500px;
+  }
+
+  .first-title {
+    font-size: 35px;
+  }
+
+  .second-title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .general-title-box {
+    width: 450px;
+  }
+
+  .first-title {
+    font-size: 30px;
+  }
+
+  .second-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .general-title-box {
+    width: 400px;
+    height: 200px;
+  }
+
+  .tic-tac-toe-title {
+    gap: 0;
+  }
+
+  .first-title {
+    font-size: 30px;
+  }
+
+  .second-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .general-title-box {
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+  }
+
+  .first-title {
+    font-size: 30px;
+  }
+
+  .second-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .general-title-box {
+    width: 350px;
+    height: 200px;
+  }
+
+  .first-title {
+    font-size: 30px;
+  }
+
+  .second-title {
+    font-size: 40px;
+  }
+}

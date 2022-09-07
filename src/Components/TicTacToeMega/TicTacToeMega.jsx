@@ -4,6 +4,7 @@ import BoardMega from './BoardMega';
 import ScoreBoardMega from './ScoreBoardMega';
 import {motion} from 'framer-motion'
 import './TicTacToeMega.css'
+import './MegaResponsive.css'
 
 function TicTacToeMega() {
 

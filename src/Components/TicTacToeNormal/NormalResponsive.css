@@ -1,0 +1,140 @@
+@media screen and (max-width: 1024px) {
+  .container-normal {
+    width: 100%;
+  }
+
+  .home-button-normal {
+    width: 120px;
+    height: 40px;
+  }
+
+  .status-box {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .score-board-container {
+    height: 130px;
+  }
+
+  .score-board-title-box {
+    height: 60px;
+  }
+
+  .score-board {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+
+  .home-button-normal {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .board-normal {
+    grid-template-columns: repeat(3, 130px);
+  }
+
+  .square-normal {
+    width: 130px;
+    height: 130px;
+  }
+
+  .o-normal {
+    font-size: 130px;
+  }
+
+  .x-normal {
+    font-size: 130px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+
+  .home-button-normal {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .status-box {
+    min-height: 220px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .score-board-container {
+    height: 100px;
+  }
+
+  .score-board-title-box {
+    height: 40px;
+  }
+
+  .score-board-title {
+    font-size: 24px;
+  }
+
+  .score-board {
+    height: 60px;
+  }
+
+  .buttons-box-normal {
+    height: 100px;
+  }
+
+  .play-again {
+    width: 150px;
+    height: 40px;
+  }
+
+  .reset {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .board-normal {
+    grid-template-columns: repeat(3, 100px);
+  }
+
+  .square-normal {
+    width: 100px;
+    height: 100px;
+  }
+
+  .o-normal {
+    font-size: 100px;
+  }
+
+  .x-normal {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .board-normal {
+    grid-template-columns: repeat(3, 90px);
+  }
+
+  .square-normal {
+    width: 90px;
+    height: 90px;
+  }
+
+  .o-normal {
+    font-size: 90px;
+  }
+
+  .x-normal {
+    font-size: 90px;
+  }
+}

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {motion} from 'framer-motion'
 import Modal from './Modal/Modal'
 import './Home.css'
+import './HomeResponsive.css'
 
 export default function Home() {
 

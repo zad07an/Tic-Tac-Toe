@@ -1,5 +1,6 @@
 import React from 'react'
 import './TicTacToeMega.css'
+import './MegaResponsive.css'
 
 export default function ScoreBoardMega({scores, playerX}) {
   const {xScore, oScore} = scores;

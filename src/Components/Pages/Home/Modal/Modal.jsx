@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {FaTimes} from 'react-icons/all'
 import {motion} from 'framer-motion'
 import './Modal.css'
+import './ModalResponsive.css'
 
 export default function Modal({closeModalHandler}) {
 

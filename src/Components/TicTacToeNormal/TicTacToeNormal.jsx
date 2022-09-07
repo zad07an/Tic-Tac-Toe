@@ -4,6 +4,7 @@ import BoardNormal from './BoardNormal';
 import ScoreBoardNormal from './ScoreBoardNormal';
 import {motion} from 'framer-motion'
 import './TicTacToeNormal.css'
+import './NormalResponsive.css'
 
 function TicTacToeNormal() {
 
